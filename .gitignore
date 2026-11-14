@@ -1,0 +1,30 @@
+# WHITELIST: everything is ignored unless explicitly allowed below.
+# Datasets, model weights, per-case predictions and any image that shows dataset
+# content stay out of the repository on purpose (Derm7pt is CC BY-NC-ND: images and
+# metadata must not be redistributed).
+/*
+!/.gitignore
+!/README.md
+!/LICENSE
+!/requirements.txt
+!/*.py
+!/run_step*.sh
+!/tools/
+!/docs/
+!/notes/
+/build_report02.py
+
+/docs/*
+!/docs/lab_notebook_fa.md
+
+/notes/*
+!/notes/architecture.png
+!/notes/layers.png
+!/notes/results.png
+!/notes/step3c_results.csv
+!/notes/step4a_results.csv
+!/notes/step5c_results.csv
+!/notes/step6_results.csv
+!/notes/step7_results.csv
+!/notes/step8_results.csv
+!/notes/step9_results.csv
